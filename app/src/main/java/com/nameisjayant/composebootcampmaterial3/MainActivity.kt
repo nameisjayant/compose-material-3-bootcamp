@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.nameisjayant.composebootcampmaterial3.components.CollapsingToolbar
+import com.nameisjayant.composebootcampmaterial3.components.CustomLayoutScreen
 import com.nameisjayant.composebootcampmaterial3.components.FlowRowAndColumn
 import com.nameisjayant.composebootcampmaterial3.ui.theme.ComposeBootcampMaterial3Theme
 
@@ -19,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    FlowRowAndColumn()
+                    CustomLayoutScreen()
                 }
             }
         }
